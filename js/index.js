@@ -945,15 +945,15 @@ submitExam = () => {
 var queIndex = 1;
 showQuestion(queIndex);
 
- plusQue = n => {
+function plusQue(n) {
   showQuestion((queIndex += n));
 }
 
- currentQue = n => {
+function currentQue(n) {
   showQuestion((queIndex = n));
 }
 
- showQuestion = n => {
+function showQuestion(n) {
   var i;
   let que = document.getElementsByClassName("ques-group");
   for (i = 0; i < long; i++) {
