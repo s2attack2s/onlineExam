@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xếp hạng</title>
-    <link href="rank.css" rel="stylesheet" />
+    <link href="css/rank.css" rel="stylesheet" />
 </head>
 
 <body>
     <div class="rank-exam">
         <a href="index.html"> <button>Tiếp tục làm bài</button></a>
-        <h4>Bảng xếp hạng</h4>
+        <h4>Bảng điểm</h4>
         <div class="rank-detail">
             <div class="rank-detail-group">
                 <div class="rank-name detail"> Họ tên</div>
@@ -27,7 +27,16 @@
             </div>
         </div>
     </div>
-    <script src="rank.js"></script>
+    <div class="popup-detail" id="popup-detail">
+       
+        <div id="detail-exam">
+            <h4>Chi tiết bài làm</h4>
+            <button id="close-popup">Đóng</button>
+
+        </div>
+    </div>
+
+    <script src="js/rank.js"></script>
 </body>
 
 </html>
