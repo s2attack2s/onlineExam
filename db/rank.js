@@ -1,4 +1,4 @@
-[{
+let rank = [{
         "name": "Hoàng",
         "point": "6.00",
         "time": "2022-01-09",
@@ -614,3 +614,4 @@
         ]
     }
 ]
+export { rank };
