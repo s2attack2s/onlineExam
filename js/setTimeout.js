@@ -15,7 +15,7 @@ start = function() {
     if (m === -1) {
         clearTimeout(getTimeout);
         alert("Hết giờ");
-        submitExam();
+        document.getElementById("submit_Exam").click()
     }
     document.getElementById("m").innerText = m.toString();
     document.getElementById("s").innerText = s.toString();
